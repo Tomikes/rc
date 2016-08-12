@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		273DEC521D5D48E2007DA123 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 273DEC511D5D48E2007DA123 /* main.m */; };
 		273DEC551D5D48E2007DA123 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 273DEC541D5D48E2007DA123 /* AppDelegate.m */; };
-		273DEC581D5D48E2007DA123 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 273DEC571D5D48E2007DA123 /* ViewController.m */; };
+		273DEC581D5D48E2007DA123 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 273DEC571D5D48E2007DA123 /* ViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		273DEC5B1D5D48E2007DA123 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 273DEC591D5D48E2007DA123 /* Main.storyboard */; };
 		273DEC5D1D5D48E2007DA123 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 273DEC5C1D5D48E2007DA123 /* Assets.xcassets */; };
 		273DEC601D5D48E2007DA123 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 273DEC5E1D5D48E2007DA123 /* LaunchScreen.storyboard */; };
 		273DEC6B1D5D48E3007DA123 /* rcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 273DEC6A1D5D48E3007DA123 /* rcTests.m */; };
 		273DEC761D5D48E3007DA123 /* rcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 273DEC751D5D48E3007DA123 /* rcUITests.m */; };
+		273DEC851D5D62F3007DA123 /* deViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 273DEC841D5D62F3007DA123 /* deViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		273DEC711D5D48E3007DA123 /* rcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		273DEC751D5D48E3007DA123 /* rcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rcUITests.m; sourceTree = "<group>"; };
 		273DEC771D5D48E3007DA123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		273DEC831D5D62F3007DA123 /* deViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deViewController.h; sourceTree = "<group>"; };
+		273DEC841D5D62F3007DA123 /* deViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = deViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				273DEC541D5D48E2007DA123 /* AppDelegate.m */,
 				273DEC561D5D48E2007DA123 /* ViewController.h */,
 				273DEC571D5D48E2007DA123 /* ViewController.m */,
+				273DEC831D5D62F3007DA123 /* deViewController.h */,
+				273DEC841D5D62F3007DA123 /* deViewController.m */,
 				273DEC591D5D48E2007DA123 /* Main.storyboard */,
 				273DEC5C1D5D48E2007DA123 /* Assets.xcassets */,
 				273DEC5E1D5D48E2007DA123 /* LaunchScreen.storyboard */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				273DEC581D5D48E2007DA123 /* ViewController.m in Sources */,
+				273DEC851D5D62F3007DA123 /* deViewController.m in Sources */,
 				273DEC551D5D48E2007DA123 /* AppDelegate.m in Sources */,
 				273DEC521D5D48E2007DA123 /* main.m in Sources */,
 			);
